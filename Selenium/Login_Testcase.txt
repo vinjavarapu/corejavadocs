@@ -1,0 +1,63 @@
+package TestCases;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+/**
+ * @author Ravi
+ *
+ */
+public class Login {
+
+	/**
+	 * @param args
+	 */
+	
+	 WebDriver driver;
+	
+	public  void Setup() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriverexe\\chromedriver.exe");
+		
+		 driver = new ChromeDriver();
+		 driver.get("http://demo.guru99.com/V4/");
+		 driver.manage().window().maximize();
+		
+	}
+	
+	public void VerifyValidLogin() {
+		
+		WebElement Userid = driver.findElement(By.name("uid"));
+		Userid.sendKeys("mngr271710");
+		WebElement password = driver.findElement(By.name("password"));
+		password.sendKeys("Uqesasy");
+		WebElement Login = driver.findElement(By.name("btnLogin"));
+		Login.click();
+		
+		
+	}
+	
+	public void TearDown() {
+		
+		driver.close();
+		driver.quit();
+		
+	}
+	public static void main(String[] args) {
+		
+		
+		Login obj = new Login();
+		
+		obj.Setup();
+		obj.VerifyValidLogin();
+		obj.TearDown();
+		
+
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

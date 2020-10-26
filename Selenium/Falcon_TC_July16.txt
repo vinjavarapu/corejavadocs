@@ -1,0 +1,47 @@
+Tasks
+
+https://blackswantechnologies.atlassian.net/browse/FAL-197
+
+
+Test title: Application Planner - Connect Sources Page - Application Planner Workflow - Connect Sources tab is highlited
+Given User has permission to access ElemenTry 
+Given User is logged into ElemenTry 
+Given at least one Application exists
+Given User is on Connect Sources Page for the Application
+When User looks at the tile under Application Planner Workflow //Anna: User cannot "select" the tile, but you can say "User looks at the tile under Application Planner Workflow"//Ravi: Updated the test step
+Then User is able to see Connect Source tile is highlited with orange clolur in Application Planner Workflow
+
+Strory details: Automatic website fetcher (GoW)
+
+Test scenarios:
+1) Application planner->Connect sources page --> Add To Plan button is available and enabled in Connect URL automatically tile
+
+2) Application planner->Connect sources page --> When user clicks Add to Plan button under Connect URL automatically tile should popup Add Source popup
+
+3)  Application planner->Connect sources page--> Add Source popup displays Source Name as required value
+
+4) Application planner->Connect sources page--> Add Source popup- Cancel , Connect Now and Save buttons are present
+
+5)  Application planner->Connect sources page--> Add Source popup -Cancel button work correctly
+
+6)  Application planner->Connect sources page--> Add Source popup -Connect Now button works correctly
+
+7) Application planner->Connect sources page--> Add Source popup -Save button works correctly
+
+8) Application planner->Connect sources page-->Create Add Source functionality work correctly
+
+9) Application planner->Connect sources page--> Add Source popup ->Disable buttons are showing
+
+10) Application planner->Connect sources page--> Add Source popup -> Add source- User clicks Connect now button  
+
+
+Given User has permission to access ElemenTry 
+Given User is logged into ElemenTry 
+Given at least one Application exists
+Given User is on Connect Sources Page for the Application
+When User clicks Add To Plan tile under the tile Connect URL Automatically
+And Add Source pop up should display
+When user enteres the Source Name details
+When User clicks the save button
+Then Add Source Data is saved succesfully
+

@@ -1,0 +1,17 @@
+The test case before feedback
+
+The test case after feedback
+
+points learned
+
+best practices
+
+
+Testcase writing approaach based on screens/wire frames
+
+choose the proper folder structure in tm4j
+
+write the test case title with the entire folder structure
+
+
+
