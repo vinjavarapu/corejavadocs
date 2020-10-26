@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "6502d1a1-4841-4c22-9ed0-2fbb569fe92a",
+		"name": "FGNaik",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"action\":\"login\",\n\"email\" :\"abhishek.sawant@saivaconsultancy.com\",\n\"device_id\":\"b1f1d56c01321279\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ambitiontutorials.com/api/",
+					"protocol": "https",
+					"host": [
+						"ambitiontutorials",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meetingAttendance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"action\":\"meetingAttendance\",\r\n\t\"user_id\":\"2\",\r\n\t\"meeting_id\":\"17\",\r\n\t\"subject_name\":\"Math\",\r\n\t\"attendance_date\":\"28-07-2020\",\r\n\t\"meeting_start_time\":\"28-07-2020 12:15:05\",\r\n\t\"meeting_end_time\":\"\",\r\n\t\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\r\n\r\n    \r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fgnaikcollege.com/api/",
+					"protocol": "https",
+					"host": [
+						"fgnaikcollege",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meetingSurpriseAttendance",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"action\":\"meetingSurpriseAttendance\",\r\n\t\"user_id\":\"2\",\r\n\t\"meeting_id\":\"16\",\r\n\t\"subject_name\":\"Math\",\r\n\t\"attendance_date\":\"28-07-2020\",\r\n\t\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fgnaikcollege.com/api/",
+					"protocol": "https",
+					"host": [
+						"fgnaikcollege",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meetingEndAttendance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"action\":\"meetingEndAttendance\",\r\n\t\"user_id\":\"2\",\r\n\t\"meeting_id\":\"16\",\r\n\t\"subject_name\":\"Math\",\r\n\t\"attendance_date\":\"28-07-2020\",\r\n    \"meeting_end_time\":\"28-07-2020 05:15:05\",\r\n\t\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fgnaikcollege.com/api/",
+					"protocol": "https",
+					"host": [
+						"fgnaikcollege",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

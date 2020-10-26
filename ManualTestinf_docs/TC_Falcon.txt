@@ -1,0 +1,27 @@
+Application - New Application creation path wizard
+
+Given
+1 Login to Elementary 
+
+When
+1. User observed the Application creation path wizard
+
+Then
+A Circle wizard with the following actions
+1 Define Data Model
+2 Connect Sources
+3 Define AI Insights
+4 Personlize
+5 User Management
+6 Data Operations
+
+2) Application - Dashboard - When User Clicks on Define Data Model
+
+Given
+1) User logged into Elementary
+2) User created an Application
+When
+1) When User clicks on Define Data mdoel
+
+Then
+1) Define Data Model tile will be highlited

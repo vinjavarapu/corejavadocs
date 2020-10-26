@@ -1,0 +1,28 @@
+package Testcases;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import Utility.BaseClass;
+
+public class GoogleSearchTest extends BaseClass {
+	
+      
+	
+	@Test(priority=1)
+	public void Googlesearch()  {
+		
+		
+	   driver.findElement(By.name("q")).sendKeys("Ravikumar Vinjavarapu");
+		
+		
+	}
+	@Test(priority=2)
+	public void ClickSrchButton() {
+		
+		driver.findElement(By.name("btnK")).click();
+		
+		
+	}
+
+}

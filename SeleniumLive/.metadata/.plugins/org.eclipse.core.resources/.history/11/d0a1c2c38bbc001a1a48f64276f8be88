@@ -1,0 +1,23 @@
+package Testcases;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import Utility.BaseClass;
+
+public class GoogleSearchTest extends BaseClass {
+	
+      
+	
+	@Test
+	public void Googlesearch() throws InterruptedException {
+		
+		
+		super.SetUP();
+		Thread.sleep(5000);
+	   driver.findElement(By.name("q")).sendKeys("Ravikumar Vinjavarapu");
+		
+		
+	}
+
+}

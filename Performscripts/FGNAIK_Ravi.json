@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "6502d1a1-4841-4c22-9ed0-2fbb569fe92a",
+		"name": "FGNaik",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"action\":\"login\",\n\"email\" :\"pranayan22@gmail.com\",\n\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://fgnaikcollege.com/api/"
+			},
+			"response": []
+		},
+		{
+			"name": "meetingAttendance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"action\":\"meetingAttendance\",\r\n\t\"user_id\":\"718\",\r\n\t\"meeting_id\":\"17\",\r\n\t\"subject_name\":\"Math\",\r\n\t\"attendance_date\":\"28-07-2020\",\r\n\t\"meeting_start_time\":\"28-07-2020 12:15:05\",\r\n\t\"meeting_end_time\":\"\",\r\n\t\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\r\n\r\n    \r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://fgnaikcollege.com/api/"
+			},
+			"response": []
+		},
+		{
+			"name": "meetingSurpriseAttendance",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"action\":\"meetingSurpriseAttendance\",\r\n\t\"user_id\":\"718\",\r\n\t\"meeting_id\":\"17\",\r\n\t\"subject_name\":\"Math\",\r\n\t\"attendance_date\":\"28-07-2020\",\r\n\t\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://fgnaikcollege.com/api/"
+			},
+			"response": []
+		},
+		{
+			"name": "meetingEndAttendance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"action\":\"meetingEndAttendance\",\r\n\t\"user_id\":\"718\",\r\n\t\"meeting_id\":\"17\",\r\n\t\"subject_name\":\"Math\",\r\n\t\"attendance_date\":\"28-07-2020\",\r\n    \"meeting_end_time\":\"28-07-2020 05:15:05\",\r\n\t\"device_id\":\"01234567-89ABCDEF-01234567-89ABCDEF\"\r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://fgnaikcollege.com/api/"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

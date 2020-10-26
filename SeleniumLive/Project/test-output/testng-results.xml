@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-07T21:50:45 IST" name="Default suite" finished-at="2020-07-07T21:51:05 IST" duration-ms="19504">
+    <groups>
+    </groups>
+    <test started-at="2020-07-07T21:50:45 IST" name="Default test" finished-at="2020-07-07T21:51:05 IST" duration-ms="19504">
+      <class name="Testcases.GoogleSearchTest">
+        <test-method is-config="true" signature="SetUP()[pri:0, instance:Testcases.GoogleSearchTest@ef9296d]" started-at="2020-07-07T21:50:45 IST" name="SetUP" finished-at="2020-07-07T21:50:58 IST" duration-ms="12929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method signature="Googlesearch()[pri:1, instance:Testcases.GoogleSearchTest@ef9296d]" started-at="2020-07-07T21:50:58 IST" name="Googlesearch" finished-at="2020-07-07T21:51:04 IST" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googlesearch -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Testcases.GoogleSearchTest@ef9296d]" started-at="2020-07-07T21:51:04 IST" name="Quit" finished-at="2020-07-07T21:51:05 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- Testcases.GoogleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
