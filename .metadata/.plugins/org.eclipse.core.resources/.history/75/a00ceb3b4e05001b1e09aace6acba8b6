@@ -1,0 +1,20 @@
+package CoreJava;
+
+public class Varibles1 {
+
+	public static void main(String[] args) {
+		
+	//	int x= 30.56;
+		float f =  300;
+		
+		System.out.println(f);
+		
+		
+		System.out.println(f);
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

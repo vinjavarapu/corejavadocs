@@ -1,0 +1,51 @@
+package ObjectsAndClasses;
+
+public class MyClass {
+	
+	int x = 5;
+	
+	static int age = 35;
+	
+	void add() {
+		
+		int a, b, sum;
+		a=5;
+		b=6;
+		sum = a+b;
+		System.out.println("The sum of two numbers is " + sum);
+		
+	}
+	void add(int a, int b)
+	{
+		int sum;
+		sum = a+b;
+		System.out.println("The sum of two numbers is "+ sum);
+	}
+	
+	double add(double a, double b) {
+		
+		double sum;
+		sum = a+b;
+		return sum;
+		
+	}
+
+
+
+public static void main(String args[])
+{
+	MyClass obj1 = new MyClass();
+	
+	int varible = obj1.x;
+	System.out.println(varible);
+	 System.out.println( obj1.x);
+	 System.out.println(age);
+	 System.out.println(MyClass.age);
+	 obj1.add();
+	 obj1.add(8,8);
+	 obj1.add(10.56, 11.67);
+	 
+	
+}
+
+}

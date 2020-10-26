@@ -1,0 +1,23 @@
+package BuiltinMethods;
+
+public class equalsignorecase {
+	
+	public static void main(String args[]) {
+		
+		
+		String str1 = "SELENIUM";
+		
+		String str2 = "selenium";
+				
+				String str3= "UFT";
+				
+				System.out.println(str1.equalsIgnoreCase(str2));
+				
+				System.out.println(str1.equalsIgnoreCase(str3));
+				
+				System.out.println(str2.toUpperCase());
+				
+		
+	}
+
+}

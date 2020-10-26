@@ -1,0 +1,25 @@
+package Loops;
+
+public class ArrayEx1 {
+	
+	public static void main(String args[])
+	{
+		
+		String[] cars = {"Maruti","Tata","Mahindra","Toyota"};
+		for(String i:cars)
+		{
+			System.out.println(i);
+		}
+		foreachintdatatype();
+	}
+	
+	static void foreachintdatatype() {
+		
+		int[] studentids = {1,2,3,4};
+		for(int i:studentids) {
+			
+			System.out.println("The student id details are" + i);
+		}
+	}
+
+}

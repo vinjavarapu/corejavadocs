@@ -1,0 +1,28 @@
+package Collections;
+
+import java.util.Iterator;
+import java.util.Vector;
+
+public class VectorsProj {
+
+	public static void main(String[] args) {
+		
+		Vector vt = new Vector();   //vector is synchronized
+		
+		vt.add("Ravi");
+		vt.add("Suresjh");
+		
+		System.out.println(vt);
+		
+		Iterator it = vt.iterator();
+		while(it.hasNext()) {
+			
+			System.out.println(it.hasNext());
+		}
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

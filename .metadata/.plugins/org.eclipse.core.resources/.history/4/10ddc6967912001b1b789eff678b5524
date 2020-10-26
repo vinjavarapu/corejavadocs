@@ -1,0 +1,18 @@
+package Collections;
+
+import java.util.LinkedList;
+
+public class LinkedlistProj {
+
+	public static void main(String[] args) {
+		
+		LinkedList links = new LinkedList();
+		links.add("Ravi");
+		links.add("Mohan");
+		links.add("Satya");
+		System.out.println(links);
+		// TODO Auto-generated method stub
+
+	}
+
+}

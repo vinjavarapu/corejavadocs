@@ -1,0 +1,22 @@
+package OOPSPrograms;
+
+public class College1 implements college{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void typeofcollege() {
+		// TODO Auto-generated method stub
+		System.out.println("This is technical college");
+	}
+
+	@Override
+	public void technicaleducations() {
+		// TODO Auto-generated method stub
+		System.out.println("The course are technical");
+	}
+
+}

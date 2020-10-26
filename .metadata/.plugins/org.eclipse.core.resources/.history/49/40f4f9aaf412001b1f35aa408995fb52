@@ -1,0 +1,15 @@
+package Loops;
+
+public class arrayexample2 {
+	
+	public static void main(String args[]) {
+		
+		
+		String[] cars = {"Volvo","BMW","Tata","Maruti"};
+		
+		cars[0]="Opel";
+		
+		System.out.println(cars[0]);
+	}
+
+}

@@ -1,0 +1,17 @@
+package ObjectsAndClasses;
+
+public class Class3 {
+	
+	int x;
+	final int y =50;
+	
+	public static void main(String args[]) {
+		
+		Class3 obj3 = new Class3();
+		obj3.x = 77;
+		//obj3.y = 66;
+		System.out.println("The object member varible is " + obj3.x);
+		System.out.println("The object member varible is " + obj3.y);
+	}
+
+}

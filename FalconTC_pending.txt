@@ -1,0 +1,8 @@
+1) Application Planner - Insights - Prediction Insights - Set Search Criteria - UI elements
+
+2) Application Planner - Insights - Prediction Insights - Set Search Criteria - Verify Search with valid data
+
+3) Application Planner - Insights - Prediction Insights - Set Search Criteria - Validation message with empty search
+
+4)  Application Planner - Insights - Prediction Insights - Set Search Criteria - Verify search action without entering name details
+

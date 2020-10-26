@@ -1,0 +1,24 @@
+package OOPSPrograms;
+
+public class PolyGon extends Poly {
+	/*
+	void add()
+	{
+		System.out.println("Just overrided");
+	}
+	*/
+	
+	public static void main(String args[]) {
+		
+		PolyGon poly1 = new PolyGon();
+		
+		poly1.add();
+	
+		/*
+		poly1.add();
+	    Poly pol = new Poly();
+	    pol.add();
+	    */
+	}
+
+}

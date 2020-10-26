@@ -1,0 +1,27 @@
+package CoreJava;
+
+public class Varibles {
+
+	public static void main(String[] args) {
+		
+		
+		int number = 100;
+		
+		String title = "Guru99 Website";
+		
+		double d = 3.5;
+		
+		float number1 = 3.657f ;
+		
+		char c = 'A';
+		
+		System.out.println("The integet number os " + number);
+		
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

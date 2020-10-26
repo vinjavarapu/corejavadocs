@@ -1,0 +1,19 @@
+package ObjectsAndClasses;
+
+public class MyClass {
+	
+	int x = 5;
+
+
+
+public static void main(String args[])
+{
+	MyClass obj1 = new MyClass();
+	
+	int varible = obj1.x;
+	System.out.println(varible);
+	 System.out.println( obj1.x);
+	
+}
+
+}

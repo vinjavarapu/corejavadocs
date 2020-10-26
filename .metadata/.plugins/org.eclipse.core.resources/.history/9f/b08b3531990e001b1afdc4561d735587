@@ -1,0 +1,15 @@
+package CoreJava;
+
+
+	
+	class Animal {
+		
+		int x=10;
+		private int f = 20;
+		static int zz= 20;
+		  public void animalSound() {
+		    System.out.println("The animal makes a sound");
+		  }
+		  
+	}
+

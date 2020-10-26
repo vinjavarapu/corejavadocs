@@ -1,0 +1,19 @@
+package BuiltinMethods;
+
+public class Constructirs {
+	
+	int x=20;
+	
+	public Constructirs() {
+		
+		int x=8;
+		
+	}
+	
+	public static void main(String args[]) {
+		
+		Constructirs obj = new Constructirs();
+		System.out.println(obj.x);
+	}
+
+}

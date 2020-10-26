@@ -1,0 +1,18 @@
+package OOPSPrograms;
+
+public class Bird extends Animal{
+
+	@Override
+	void eat() {
+		
+		System.out.println("Falcon eats birds");
+		
+	}
+	public static void main(String args[]) {
+		
+		Animal mybird = new Bird();
+		mybird.eat();
+	}
+	
+
+}

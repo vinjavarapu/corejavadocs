@@ -1,0 +1,17 @@
+package CoreJava;
+
+public class Varibles1 {
+
+	public static void main(String[] args) {
+		
+		
+		int number = (int) 100.56;
+		
+		System.out.println(number);
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

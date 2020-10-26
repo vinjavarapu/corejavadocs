@@ -1,0 +1,37 @@
+package OOPSPrograms;
+
+public class Eagle implements Animal1,Bird1{
+
+	@Override
+	public void fly() {
+	
+		
+		System.out.println("Eage is one of flying bird");
+		
+	}
+
+	@Override
+	public void eat() {
+		
+		System.out.println("Eagle eats food");
+		
+	}
+
+	@Override
+	public void sound() {
+		
+		System.out.println("They are calm while on fly");
+		
+	}
+	
+	public static void main(String args[]) {
+		
+		Eagle eagle1 = new Eagle();
+		eagle1.fly();
+		eagle1.sound();
+		eagle1.eat();
+	}
+	
+	
+
+}

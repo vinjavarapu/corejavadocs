@@ -1,0 +1,17 @@
+package BuiltinMethods;
+
+public class comparison {
+	
+	public static void main (String [] args){
+		
+		String str1 = "selenium";
+		String str2 = "SELENIUM";
+		String str3 =  "selenima";
+		String str4 =  "seleniumm";
+		System.out.println(str1.compareTo(str2));//Positive value
+		System.out.println(str1.compareTo(str3));//Negative value
+		System.out.println(str1.compareTo(str4));//0
+		}
+		}
+
+

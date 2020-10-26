@@ -1,0 +1,28 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListProj {
+
+	public static void main(String[] args) {
+		
+		String[] fruits = new String[3];
+		fruits[0] = "Apple";
+		fruits[1]="Mango";
+		fruits[2] = "Strawberry";
+		System.out.println(fruits[1]);
+		
+		ArrayList fruitList = new ArrayList();
+		
+		fruitList.add("Mango");
+		fruitList.add("Banana");
+		fruitList.add("Straberry");
+		fruitList.add("apple");
+		
+		System.out.println(fruitList);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package CoreJava;
+
+class MyMainClass {
+	
+	  public static void main(String[] args) {
+		  
+		  
+	    Animal myAnimal = new Animal();  // Create a Animal object
+	    Animal myPig = new Pig();  // Create a Pig object
+	    Animal myDog = new Dog();  // Create a Dog object
+	    myAnimal.animalSound();
+	    myPig.x =40;
+	    System.out.println(myPig.x);
+	    System.out.println(myPig.zz);
+	    System.out.println(myPig.f);
+	    myPig.animalSound();
+	    myDog.animalSound();
+	  }}
